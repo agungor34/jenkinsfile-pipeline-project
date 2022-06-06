@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('run') {
             steps {
-                echo 'Clarusway_Way to Reinvent Yourself'
+                echo 'SCM nin kontrol edilmesi, Schedule testi 5555555'
                 sh 'python --version'
                 sh 'python pipeline.py'
             }
@@ -11,7 +11,7 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Clarusway_Way to Reinvent Yourself'
-                sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
+                sh 'echo SCM nin kontrol edilmesi, Schedule testi'
             }
         }
         stage('run2') {
@@ -19,12 +19,6 @@ pipeline {
                 echo 'Clarusway_Way to Reinvent Yourself'
                 sh 'python --version'
                 sh 'python pipeline.py'
-            }
-        }
-        stage('build2') {
-            steps {
-                echo 'Clarusway_Way to Reinvent Yourself'
-                sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
             }
         }
     }
