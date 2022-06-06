@@ -7,6 +7,7 @@ pipeline {
                 sh 'python --version'
                 sh 'python pipeline.py'
             }
+        }
         stage('build') {
             steps {
                 echo 'Clarusway_Way to Reinvent Yourself'
